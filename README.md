@@ -1,2 +1,2 @@
-# word-hunt-solver
-Solver for 4x4 Word Hunt on iMessage's GamePigeon
+# science-tale
+The lesson in this science tale is based the unit, Understanding Earth and Space Systems: Air and Water in the Environment under the Big Idea, "Demonstrate an understanding of the ways in which air and water are used by living things to help them meet their basic needs" in The Ontario Curriculum for Grade 2 Science. A video presentation was created and presented to over 100 grade 1 and 2 students at Grenoble Public School.
