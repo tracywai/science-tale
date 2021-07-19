@@ -37,29 +37,29 @@ def outro():
     3. Even if land animals bring oxygen underwater with them, they will eventually need to resurface to get more oxygen and to drink water.
     4. Aquatic animals are best suited for life underwater!
     5. Land animals are best suited for life on land! \n""")
-    print("Thank you for celebrating Cat and Fish\'s birthday! See you next time!")
+    print("Thank you for celebrating Cat and Fish\'s birthday! See you next time!\n")
     start_again()
 
 def scene_eight():
     print("""\"WAIT! How about a volleyball match! Over the pond! You can stay in the water while I stay on land.
     That way, I don\'t need to snorkel or hold my breath, and you can take in the oxygen from the water.” says Cat. \n
     \"Great idea! If you get thirsty or tired, you can have a drink of water without needing to leave the pond!
-    And I won\'t be confined to a really small bowl that I cannot play in!\" Fish says.""")
+    And I won\'t be confined to a really small bowl that I cannot play in!\" Fish says.\n""")
     time.sleep(1)
     print("""For the rest of the day, Cat and Fish go on to play volleyball with the net at the edge of the pond.
-    Fish smiles as she leaps out of the water to bounce the ball back over the net to Cat, who is on land. The two have lots of fun!""")
+    Fish smiles as she leaps out of the water to bounce the ball back over the net to Cat, who is on land. The two have lots of fun!\n""")
     time.sleep(1)
-    print("""After the volleyball match, Cat and Fish part ways to their own homes-- Cat on land, and Fish in the water.
+    print("""After the volleyball match, Cat and Fish part ways to their own homes-- Cat on land, and Fish in the water.\n
     \"See you tomorrow, Cat! I demand a rematch!\"
-    \"Bye, Fish!\"""")
+    \"Bye, Fish!\"\n""")
     time.sleep(2)
     print("The End!")
     outro()
 
 def scene_seven():
     print("""\"Well, we can\'t lose hope. It’s not too late!\"
-    Cat and Fish brainstorm and try out ideas for how they can spend the rest of the day together, despite needing different environments to breathe in.""")
-    answer_3 = input("""What are possible ideas that allow Cat and Fish to play together?
+    Cat and Fish brainstorm and try out ideas for how they can spend the rest of the day together, despite needing different environments to breathe in.\n""")
+    answer_3 = input("""What are possible ideas that allow Cat and Fish to play together?\n
 
     A. Cat and Fish can play volleyball along the shore.
     B. Cat and fish can watch a movie by the pond.
@@ -100,9 +100,9 @@ def scene_five():
     \"No, Beaver, I need water to breathe through my gills.\" he sighs. \"I miss my home.\"
 
     \"I\'ll drop you off at your pond if you want,\" Beaver says.
-    \"Yes, please!\"""")
+    \"Yes, please!\"\n""")
     time.sleep(1.5)
-    print("""Learning check!
+    print("""Learning check!\n
     Remember that Fish cannot use water effectively outside of his pond because there is no oxygen to dissolve through his gills.
     Just like we would have trouble breathing if our air was too polluted, if Fish\'s pond is too polluted, she wouldn\'t be able to breathe because there is less oxygen to filter!
     That is why it is important to keep our environment clean - so that Cat and Fish can both breathe in our natural habitats!""")
@@ -111,26 +111,27 @@ def scene_five():
 
 def scene_four():
     print("""\"Hey Cat, I know you don\'t have gills, and we don\'t have an oxygen tank nearby, but there\'s bamboo over there that you could use as a breathing tube!” suggests Snail.
-    \"Great idea! Let\'s try it!\"
-    \"Whew! Swimming is tiring...\" Cat thinks to himself as he snorkels.\n
+    \"Great idea! Let\'s try it!\"\n""")
+    time.sleep(1.5)
+    print("""\"Whew! Swimming is tiring...\" Cat thinks to himself as he snorkels.\n
     Meanwhile, the sun is blazing down on Fish, who is hopping towards Cat\'s home. Soon, Fish is having trouble breathing and becomes tired.
     \"I need water,\" she says. \"Where can I find some?\"""")
     print("""Luckily, he runs into Beaver, who is holding a glass of water.
-    \"Hey Fish, you look like you could use some of this!\" he says.""")
-    answer_2 = input("""What do you think fish will do with the water?
+    \"Hey Fish, you look like you could use some of this!\" he says.\n""")
+    answer_2 = input("""What do you think fish will do with the water?\n
     A. Fish will ask to drink the water.
     B. Fish does not need water and will continue her journey to find Cat.
     C. Fish will jump into the glass. """)
     if answer_2 in answer_A:
-        print("Incorrect. Try again!")
+        print("Incorrect. Try again!\n")
         scene_four()
 
     elif answer_2 in answer_B:
-        print("Incorrect. Try again!")
+        print("Incorrect. Try again!\n")
         scene_four()
 
     elif answer_2 in answer_C:
-        print("Correct!")
+        print("Correct!\n")
         scene_five()
     
     else:
@@ -141,10 +142,10 @@ def scene_four():
 def scene_three():
     print("""Learning Check! 
      In order for land animals to do things underwater, we would need to bring oxygen with us.
-     One way this could be possible is scuba diving - where we bring a tank of oxygen underwater and breathe through a tube connected to the oxygen.
+     One way this could be possible is scuba diving - where we bring a tank of oxygen underwater and breathe through a tube connected to the oxygen.\n
      In Cat\'s situation, he can stay submerged in water longer by snorkelling. 
      You\'re equipped with a diving mask and breathing tube that connects to the outside environment, allowing you to swim along the surface of the pond.""")
-    answer_1 = input("Understand the concept and ready to move on? (yes/no) ")
+    answer_1 = input("Understand the concept and ready to move on? (yes/no)\n ")
     if answer_1 in yes:
         print("Awesome! Excellent learning so far!")
         scene_four()
